@@ -22,6 +22,8 @@
 
 module.exports.routes = {
 
+  'get /test': 'ItemController.create',
+
   /***************************************************************************
   *                                                                          *
   * Make the view located at `views/homepage.ejs` (or `views/homepage.jade`, *

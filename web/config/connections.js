@@ -79,7 +79,7 @@ module.exports.connections = {
     host: 'adminroot.webfactional.com',
     user: 'adminuscan',
     password: 'uscanadmin',
-    database: 'adminroot_wr'
+    database: 'uscan'
   }
 
 
