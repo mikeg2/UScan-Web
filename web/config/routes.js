@@ -22,7 +22,9 @@
 
 module.exports.routes = {
 
-  'get /test': 'ItemController.create',
+  'post /item': 'ItemController.create',
+  'put /item/:itemid': 'ItemController.update',
+  'get /item/:itemid': 'ItemController.get',
 
   /***************************************************************************
   *                                                                          *
