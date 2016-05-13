@@ -25,6 +25,7 @@ module.exports.routes = {
   'post /item': 'ItemController.create',
   'put /item/:itemid': 'ItemController.update',
   'get /item/:itemid': 'ItemController.get',
+  'get /item': 'ItemController.getAll',
 
   /***************************************************************************
   *                                                                          *
